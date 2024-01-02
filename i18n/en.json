@@ -27,11 +27,11 @@
     "web-w-36-title": "Clock",
     "web-w-37-title": "Portafolio 2",
     "games-w-11-description": "My first complex game. Made with Godot Engine",
-    "web-w-31-description": "A simple responsive portafolio. Made only with Javascript and CSS ",
+    "web-w-31-description": "A simple responsive portafolio. Made only with HTML and CSS ",
     "web-w-32-description": "A quote generator. I used technologies like JQuery and Bootstrap in it",
     "web-w-33-description": "A drum player. I included technologies like JQuery and Bootstrap in it",
-    "web-w-34-description": "I used a markdown parser like marked, also JQuery and Bootstrap",
+    "web-w-34-description": "I used a markdown parser like marked, also JQuery",
     "web-w-35-description": "A simple calculator made with React",
     "web-w-36-description": "A clock with alarm made with React",
-    "web-w-37-description": "A portafolio made with React, Vite, ReactRouter, Bootstrap and i18n plugin"
+    "web-w-37-description": "A portafolio made with React, Vite, ReactRouter, Bootstrap and React-i18n"
 }
