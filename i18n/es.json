@@ -3,7 +3,7 @@
     "projects": "Proyectos",
     "about": "Acerca de mi",
     "contact": "Contacto",
-    "page-title-1": "Projectos en progreso",
+    "page-title-1": "Destacados",
     "page-title-2": "Todos mis proyectos",
     "page-title-3": "¿Quien soy?",
     "page-title-4": "Todos mis contactos",
@@ -19,6 +19,7 @@
     "in-progress": "Esta página está aún en progreso",
     "go-project": "Ir al proyecto",
     "games-w-11-title": "The State of Nowhere",
+    "games-w-12-title": "Shapes And Colors",
     "web-w-31-title": "Portafolio 1",
     "web-w-32-title": "Generador de Citas",
     "web-w-33-title": "Drum Machine",
@@ -28,7 +29,8 @@
     "web-w-37-title": "Portafolio 2",
     "copy-msje-1": "Contenido copiado al portapapeles",
     "copy-msje-2": "Error al copiar",
-    "games-w-11-description": "Mi primer juego complejo. Hecho con Godot Engine",
+    "games-w-11-description": "Un juego donde consigues empleo en el centro de distribución de alimentos del estado de Nowhere!",
+    "games-w-12-description": "Un juego de móvil para niños, donde podrán interactuar con figuras y colores",
     "web-w-31-description": "Un simple y responsivo portafolio. Hecho solo con HTML y CSS",
     "web-w-32-description": "En él usé tecnologías como JQuery y Bootstrap",
     "web-w-33-description": "Un simple reproductor de sonidos. En él incluí tecnologías como JQuery y Bootstrap",
@@ -44,5 +46,6 @@
     "about-p6": "Ya alejado de la universidad, decidí emprender el desarrollo de mi primer videojuego como tal, <0>The State of Nowhere</0>, no sin antes acumular más experiencia programando tanto, sitios web, como aplicaciones Android y otros aplicativos de escritorio. La descripción de gran parte de los proyectos desarrollados hasta ahora puedes encontrarlos en este <1>enlace</1>.",
     "about-p7": "En cuanto al presente, me encuentro culminando el desarrollo de mi primer juego, además de todas las tareas que el lanzamiento de un videojuego implica. Y paralelamente, me doy tiempo para realizar proyectos de desarrollo web que me permitan ampliar mis conocimientos del campo. Al momento poseo un perfil frontend y mi intención es ahondar aún más en el backend, y otras tecnologías interesantes relacionadas al testing y la performance.",
     "about-p8": "Y ese es un resumen a grandes rasgos, de quien les escribe. Si deseas seguir más de cerca de mi actividad, te invito a que me sigas en alguna de <0>mis redes</0>.",
-    "about-p9": "Saluda afectuosamente,"
+    "about-p9": "Saluda afectuosamente,",
+    "w-11-p-1": "Puedes encontrar más información acerca de este proyecto en mi cuenta personal de <0>Twitter</0>."
 }
