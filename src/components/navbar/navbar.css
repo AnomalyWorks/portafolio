@@ -1,24 +1,73 @@
 .navbar-size {
-    width: 100vw;
+    width: 100%;
+    height: 9vh;
     display: flex;
-    gap: 10px;
+    border-bottom: 2px solid var(--border-color-1);
+    align-items: center;
+    text-decoration: none;
+}
+
+#logo-container {
+    display: flex;
+    width: 17%;
+    align-items: center;
+    height: 100%;
+}
+
+#logo-aworks {
+    padding: 0 4% 0 4%;
+    max-height: 95%;
 }
 
 .navbar-left {
-    width: 50%;
+    width: 82%;
+    align-items: center;
     justify-content: space-around;
     display: flex;
-    gap: 20px;
 }
 
 .navbar-center {
-    width: 10%;
+    width: 0;
 }
 
-.navbar-right {
-    width: 40%;
+h5 {
+    font-family: 'Zector', sans-serif;
+}
+
+div > a {
+    text-decoration: none;
+    color: var(--font-color-2);
+}
+
+div > a:hover {
+    text-decoration: underline;
+    color: var(--font-color-1);
+    text-underline-offset: 0.3rem;
+}
+
+#lang-container {
     display: flex;
     align-items: center;
-    justify-content: right;
-    gap: 20px;
+}
+
+@media (max-width: 950px) {
+    .navbar-h3 {
+        font-size: 1em;
+    }
+    .navbar-size {
+        flex-direction: column;
+        height: 11vh;
+    }
+    .navbar-right {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #logo-container {
+        width: 100%;
+        height: 65%;
+        align-items: normal;
+        justify-content: center;
+        margin-bottom: 0.2rem;
+    }
 }

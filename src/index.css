@@ -1,5 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-bg-color: rgb(15, 15, 15);
+    --bg-color-1 : rgba(1, 1, 1, 0.3);
+    --bg-color-2 : rgba(255, 255, 255, 0.1);
+    --bg-color-3 : white;
+    --bg-color-4 : black;
+    --border-color-1: #181818;
+    --border-color-2: rgba(255, 255, 255, 0.7);
+    --font-color-1: white;
+    --font-color-2: rgb(167, 167, 167);
+    --font-color-3: rgb(104, 104, 104);
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    min-width: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+
+html {
+    scrollbar-color: black var(--font-color-3);
+    scrollbar-width: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;/* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: var(--font-color-3);/* color of the tracking area */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: var(--border-color-1);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--font-color-3);  /* creates padding around scroll thumb */
+}
+  
+::-webkit-resizer { background-color: #666;}
+
+#root {
+    background-color: var(--main-bg-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+@font-face { 
+    font-family: 'Zector'; 
+    src: url('/fonts/Zector.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face { 
+    font-family: 'Brandink'; 
+    src: url('/fonts/BrandinkSans.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
+@font-face { 
+    font-family: '5by7'; 
+    src: url('/fonts/5by7.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
+.general-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--font-color-3);
+    padding: 2% 20% 2% 20%;
+}
+
+.general-container > p {
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
+    font-family: 'Brandink', sans-serif;
+    text-align: center;
+}
+
+.general-avatar {
+    filter: grayscale(1%);
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    border: 1px solid var(--border-color-2);
+    box-shadow: 0 5px 30px var(--bg-color-2);
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.link-p {
+    color: var(--font-color-2);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.link-p:hover {
+    color: var(--font-color-1);
+}
+
+@media (max-width: 950px) {
+    .general-avatar {
+        max-width: 25%;
+        max-height: 25%;
+    }
+
+    .general-container {
+        padding: 2% 10% 2% 10%;
+    }
 }

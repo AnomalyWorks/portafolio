@@ -1,6 +1,5 @@
 import './navbar.css'
 import { Link } from 'react-router-dom';
-import LangSelector from '../langSelector/langSelector';
 import { useTranslation } from 'react-i18next';
 
 function Navbar() {
@@ -8,23 +7,25 @@ function Navbar() {
 
     return(
         <div className='navbar-size'>
+            <div id='logo-container'>
+                <img id='logo-aworks' src='/images/logo-aworks-full.svg'/>
+            </div>
             <div className='navbar-left'>
             <Link to="/">
-                <h3 className='navbar-h3'>{t('home')}</h3>
+                <h5 className='navbar-h3 m-0'>{t('home')}</h5>
             </Link>
-            <Link to="/works">
-                <h3 className='navbar-h3'>{t('works')}</h3>
+            <Link to="/projects">
+                <h5 className='navbar-h3 m-0'>{t('projects')}</h5>
             </Link>
             <Link to="/about">
-                <h3 className='navbar-h3'>{t('about')}</h3>
+                <h5 className='navbar-h3 m-0'>{t('about')}</h5>
+            </Link>
+            <Link to="/contact">
+                <h5 className='navbar-h3 m-0'>{t('contact')}</h5>
             </Link>
             </div>
             <div className='navbar-center'></div>
             <div className='navbar-right'>
-            <Link to="/">
-                <h3 className='navbar-h3'>{t('contact')}</h3>
-            </Link>
-            <LangSelector/>
             </div>
         </div>
     );

@@ -1,0 +1,16 @@
+.slider-wrap {
+    max-width: 49rem;
+}
+
+.slide {
+    scroll-snap-type: x mandatory;
+}
+
+.btn-h3 {
+    transition: all 0.3s ease;
+}
+
+.btn-h3:hover {
+    background-color: var(--bg-color-3);
+    color: var(--main-bg-color);
+}

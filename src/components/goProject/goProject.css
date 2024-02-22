@@ -1,0 +1,33 @@
+.gp-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gp-link:hover {
+    text-decoration: none;
+}
+
+.gp-button {
+    border: 1px solid var(--bg-color-2);
+    padding: 1vh 3vw 1vh 3vw;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.gp-button:hover {
+    background-color: var(--bg-color-3);
+    color: var(--bg-color-4);
+    font-weight: 800;
+    transform: scale(0.985);
+    cursor: pointer;
+}
+
+.gp-title {
+    text-transform: uppercase;
+    font-family: "Zector", sans-serif;
+    margin: 0;
+}

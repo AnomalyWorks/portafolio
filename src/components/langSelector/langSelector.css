@@ -1,0 +1,24 @@
+.lang-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ico-lang {
+    width: 1.3rem;
+    height: 1.3rem;
+    padding-right: 0.2rem;
+    color: white;
+}
+
+.form-select:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    #ico-lang {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}

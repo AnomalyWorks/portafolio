@@ -1,0 +1,12 @@
+.butt-ico {
+    border: 1px solid var(--bg-color-2);
+    transition: all 0.2s ease;
+}
+
+.butt-ico:hover {
+    background-color: white;
+
+    svg {
+        color: black;
+    }
+}

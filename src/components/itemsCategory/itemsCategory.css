@@ -1,0 +1,65 @@
+.ic-container {
+    justify-content: center;
+    padding: 0 12% 0 12%;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.item-project {
+    position: relative;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--bg-color-2);
+    color: var(--font-color-2);
+    transition: all 0.3s ease;
+}
+
+.state-work {
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 5px;
+}
+
+.img-item {
+    filter: grayscale(0.4);
+}
+
+.shadow-work {
+    position: absolute;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 30px black;
+}
+
+.state-work > p {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.item-project:hover {
+    background-color: var(--bg-color-3);
+    color: var(--main-bg-color);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(0.985);
+
+    .text-content > h3, .text-content > p {
+        font-weight: 900;
+    }
+
+    .img-item {
+        filter: brightness(0.8);
+    }
+}
+
+.iclink:hover {
+    text-decoration: none;
+}

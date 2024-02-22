@@ -1,31 +1,53 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './i18n';
+import './App.css';
 import Home from './pages/home/home';
 import AboutMe from './pages/aboutMe/aboutMe';
 import NotFound from './pages/notFound/notFound';
 import Works from './pages/works/works';
+import Contact from './pages/contact/contact';
 import Navbar from './components/navbar/navbar';
-import './i18n';
-import './App.css';
+import Footer from './components/footer/footer';
+import SocialBar from './components/socialBar/socialBar';
+import WorkSelected from './pages/workSelected/workSelected';
+import CategorySelected from './pages/categorySelected/categorySelected';
+import { Outlet, RouterProvider, ScrollRestoration, createBrowserRouter } from 'react-router-dom';
 
-function AppWrapper() {
-  return (
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/404" element={<NotFound />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-  );
-}
 
-function App() {
+const router = createBrowserRouter([{
+  element : <Layout/>,
+  children : [
+    { path: "*", Component: NotFound },
+    { path: "/", Component: Home },
+    { path: "/about", Component: AboutMe },
+    { path: "/projects", Component: Works },
+    { path: "/projects/:category", Component: CategorySelected },
+    { path: "/projects/:category/:id", Component: WorkSelected },
+    { path: "/contact", Component: Contact },
+    { path: "/404", Component: NotFound },
+    { path: "/:id", Component: WorkSelected },
+  ]
+}]);
+
+
+function Layout() {
+
   return (
     <>
-      <Navbar/>
-      <AppWrapper/>
+      <nav>
+        <SocialBar/>
+        <Navbar/>
+      </nav>
+      <main>
+        <ScrollRestoration/>
+        <Outlet/>
+      </main>
+      <Footer/>
     </>
   );
 }
 
-export default App
+function App() {
+  return <RouterProvider router={router} />
+}
+
+export default App;

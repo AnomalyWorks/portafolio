@@ -1,0 +1,38 @@
+#cci-container {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid var(--bg-color-2);
+    transition: all 0.5s ease;
+    
+}
+
+#cc-container {
+    display: flex;
+    justify-content: center;
+}
+
+#c-link {
+    text-decoration: none;
+}
+
+#cci-container:hover {
+    color: var(--bg-color-4);
+    background-color: var(--bg-color-3);
+    transform: scale(0.97);
+}
+
+#cci-container > svg {
+    height: 30%;
+    width: 30%;
+}
+
+#contact-title {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Zector", sans-serif;   
+    text-transform: uppercase;
+}

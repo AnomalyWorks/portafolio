@@ -1,0 +1,14 @@
+.noth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+
+#nothing {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: '5by7', sans-serif;
+    color: var(--font-color-2);
+}

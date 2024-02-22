@@ -1,0 +1,41 @@
+#catci-container {
+    width: 40vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid var(--bg-color-2);
+    
+}
+
+#catc-container {
+    display: flex;
+    justify-content: center;
+}
+
+#catc-link {
+    text-decoration: none;
+}
+
+#catci-container {
+    transition: all 0.5s ease;
+}
+
+#catci-container:hover {
+    color: var(--bg-color-4);
+    background-color: var(--bg-color-3);
+    transform: scale(0.97);
+}
+
+#catci-container > svg {
+    height: 30%;
+    width: 30%;
+}
+
+.catc-title {
+    font-size: 1em;
+    font-weight: 600;
+    font-family: "Zector", sans-serif;
+    text-transform: uppercase;
+}

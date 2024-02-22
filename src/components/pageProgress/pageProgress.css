@@ -1,0 +1,23 @@
+.pprogress-container {
+    display: flex;
+    width: 100% !important;
+    justify-content: center;
+    margin: 5vh 0 5vh 0;
+}
+
+.msje-container {
+    width: 80%;
+    height: 100px;
+    border: 1px dashed var(--bg-color-3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msje-tit {
+    text-align: center;
+    font-family: "Zector", sans-serif;
+    text-transform: uppercase;
+    color: var(--bg-color-3);
+}
+
