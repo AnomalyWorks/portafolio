@@ -29,6 +29,7 @@
     "web-w-35-title": "Calculador",
     "web-w-36-title": "Reloj Alarma",
     "web-w-37-title": "Portafolio 2",
+    "desktop-w-41-title": "Visor de Muestras",
     "copy-msje-1": "Contenido copiado al portapapeles",
     "copy-msje-2": "Error al copiar",
     "games-w-11-description": "Un juego donde consigues empleo en el centro de distribución de alimentos del estado de Nowhere!",
@@ -40,6 +41,7 @@
     "web-w-35-description": "Una simple calculadora hecha con React",
     "web-w-36-description": "Un reloj con alarma hecho con React",
     "web-w-37-description": "Un portafolio hecho con React, Vite, ReactRouter, Bootstrap y React-i18n",
+    "desktop-w-41-description": "Un visor para cargar y cotejar muestras",
     "about-p1": "¡Hola! Mi nombre es Abel. Y soy la persona detrás de Anomaly Works. Actualmente me encuentro sumergido en el mundo del desarrollo indie de videojuegos, cómo así también del desarrollo web. Pero ese es el resumen, dejame contarte un poco más sobre mí.",
     "about-p2": "A lo largo de mi infancia siempre he sentido el gusto por construir cosas, siendo el dibujo la principal vía a mi alcance para manifestarlo en esa etapa, cómo así también desarmando y armando lo que encontraba. A medida que fui creciendo pude ir explorando otros campos, como la escultura, la pintura, la agricultura, la carpintería, la albañilería, y cuyas experiencias han sido muy gratificantes. No fue hasta mi adolescencia que mi padre me obsequió mi primera computadora personal, una netbook Commodore KE-7000MB y con ella me sumergí en el mundo de la tecnología…",
     "about-p3": "A partir de ese momento y con la llegada de Internet a mi vida, exploré temáticas como el diseño gráfico, informática general, edición audiovisual y el desarrollo de videojuegos. Recuerdo que mi primer acercamiento en este mundo fue con MUGEN, un motor de videojuegos de lucha, en el que yo diseñaba sprites para personajes, o al menos eso intentaba.",
@@ -54,5 +56,6 @@
     "w-11-p-3": "El estado dotará tu estación de trabajo con las herramientas necesarias para llevar a cabo tus funciones como el empleado 100411.",
     "w-11-p-4": "Será tu labor ejercer los controles que el estado considere necesarios para mantener a la población a raya.",
     "w-11-p-5": "Bajo el nuevo programa de reorganización alimentaria deberás cumplir con la normativa de forma estricta, si no quieres sufrir las consecuencias.",
-    "w-11-p-6": "Todos aquellos empleados que sirvan al estado de forma sobresaliente, serán bendecidos por nuestro honorable presidente, Maligno."
+    "w-11-p-6": "Todos aquellos empleados que sirvan al estado de forma sobresaliente, serán bendecidos por nuestro honorable presidente, Maligno.",
+    "w-41-p-1": "Un visor de muestras que te permite comparar muestras, escalarlas, aplicar filtros, navegar en busca de patrones y realizar indicaciones sobre ellas, entre otras funciones"
 }

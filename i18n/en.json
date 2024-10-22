@@ -29,6 +29,7 @@
     "web-w-35-title": "Calculator",
     "web-w-36-title": "Clock",
     "web-w-37-title": "Portafolio 2",
+    "desk-w-41-title": "Sample Viewer",
     "copy-msje-1": "Content copied to clipboard",
     "copy-msje-2": "Failed to copy",
     "games-w-11-description": "A game where you got a job in the food distribution center of the state of Nowhere!",
@@ -40,6 +41,7 @@
     "web-w-35-description": "A simple calculator made with React",
     "web-w-36-description": "A clock with alarm made with React",
     "web-w-37-description": "A portafolio made with React, Vite, ReactRouter, Bootstrap and React-i18n",
+    "desk-w-41-description": "A viewer for loading and comparing samples",
     "about-p1": "Hello there! My name is Abel. And I'm the person behind Anomaly Works. I'm currently immersed in the world of indie game development, as well as web development. But that's the summary, let me tell you a little more about me.",
     "about-p2": "Throughout my childhood I have always felt a taste for building things, drawing being the main way to manifest it at that stage, as well as disassembling and reassembling what I found. As I grew up, I was able to explore other fields such as sculpture, painting, agriculture, carpentry, and masonry, and these experiences were very rewarding. It wasn't until I was a teenager that my father gave me my first personal computer, a Commodore KE-7000MB netbook, and I immersed myself in the world of technology...",
     "about-p3": "From that moment on, and with the arrival of the Internet in my life, I explored subjects such as graphic design, general computer science, audiovisual editing, and video game development. I remember that my first approach to this world was with MUGEN, a fighting game engine, in which I designed sprites for characters, or at least that's what I tried to do.",
@@ -54,5 +56,6 @@
     "w-11-p-3": "The state will equip your workstation with the necessary tools to perform your duties as employee 100411.",
     "w-11-p-4": "It will be your duty to carry out the controls that the state deems necessary to keep the population in line.",
     "w-11-p-5": "Under the new food reorganization program, you must strictly adhere to the regulations if you want to avoid facing the consequences.",
-    "w-11-p-6": "All those employees who serve the state exceptionally will be blessed by our honorable president, Maligno."
+    "w-11-p-6": "All those employees who serve the state exceptionally will be blessed by our honorable president, Maligno.",
+    "w-41-p-1": "A sample viewer that allows you to compare samples, scale them, apply filters, browse for patterns and make indications on them, among other functions."
 }
